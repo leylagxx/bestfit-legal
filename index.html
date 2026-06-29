@@ -2,58 +2,274 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <link rel="icon" type="image/svg+xml" href="assets/app-icon.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Политика конфиденциальности — BestFit 360</title>
-  <style>
-    :root { color-scheme: light; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 32px 20px 64px;
-      line-height: 1.6;
-      color: #1a1a1a;
-      background: #fff;
-    }
-    h1 { font-size: 28px; margin-bottom: 4px; }
-    .updated { color: #6b7280; font-size: 14px; margin-bottom: 32px; }
-    h2 { font-size: 19px; margin-top: 28px; }
-    p { margin: 8px 0 0; }
-    a { color: #0a7d57; }
-    footer { margin-top: 40px; color: #6b7280; font-size: 13px; }
-  </style>
+  <title>BestFit 360 — платформа для тренеров и клиентов</title>
+  <meta name="description" content="BestFit 360 — современная фитнес-платформа для здоровья и спорта: тренеры, специалисты, программы тренировок, питание, прогресс и магазины в одном приложении.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Политика конфиденциальности</h1>
-  <div class="updated">BestFit 360 · обновлено 18 июня 2026</div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"><img src="assets/logo-mark.svg" alt="BestFit 360" width="38" height="38"></span> BestFit 360</a>
+      <button class="nav-toggle" aria-label="Меню" onclick="document.getElementById('nav').classList.toggle('open')">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav-links" id="nav">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="features.html">Возможности</a></li>
+        <li><a href="trainers.html">Для тренеров</a></li>
+        <li><a href="clients.html">Для клиентов</a></li>
+        <li><a href="support.html">Поддержка</a></li>
+        <li><a class="btn btn-primary nav-cta" href="#download">Скачать</a></li>
+      </ul>
+    </div>
+  </header>
 
-  <h2>1. Общие положения</h2>
-  <p>Настоящая Политика конфиденциальности описывает, как приложение «BestFit 360» (далее — «Приложение») собирает, использует и защищает ваши данные. Используя Приложение, вы соглашаетесь с условиями этой Политики.</p>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><span class="dot"></span> Фитнес-экосистема · iOS и Android</span>
+        <h1>Твой путь к&nbsp;<span class="grad">лучшей форме</span></h1>
+        <p class="lead">Современная фитнес-платформа, объединяющая персональных тренеров, клиентов, врачей, реабилитологов, массажистов, нутрициологов, фитнес-клубы и магазины спортивных товаров — в одном приложении.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#download">Скачать приложение</a>
+          <a class="btn btn-ghost" href="features.html">Все возможности</a>
+        </div>
+        <div class="trust">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          Бесплатная регистрация · данные под защитой
+        </div>
+      </div>
+      <div class="hero-media reveal">
+        <div class="device-wrap">
+          <div class="float-card float-tl">
+            <span class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span>
+            <span><small>Прогресс за месяц</small><b>+4.2 кг мышц</b></span>
+          </div>
+          <div class="float-card float-br">
+            <span class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>
+            <span><small>Тренировка</small><b>Выполнена</b></span>
+          </div>
+          <div class="phone">
+            <div class="phone-screen">
+              <div class="app">
+                <div class="app-status"><span>9:41</span><span class="sig"><i></i><i></i><i></i></span></div>
+                <div class="app-body">
+                  <div class="app-greet">Доброе утро,<br><span>Айгерим</span></div>
+                  <div class="app-hero">
+                    <h4>Начните путь к цели</h4>
+                    <p>Найдите тренера и начните заниматься</p>
+                    <div class="mini-btns"><span class="b1">У меня есть код</span><span class="b2">Найти тренера</span></div>
+                  </div>
+                  <div class="app-sec">Популярное</div>
+                  <div class="app-cards">
+                    <div class="app-pcard"><div class="ph"><span class="badge">−20%</span></div><div class="pb"><div class="l1"></div><div class="l2"></div></div></div>
+                    <div class="app-pcard"><div class="ph"></div><div class="pb"><div class="l1"></div><div class="l2"></div></div></div>
+                  </div>
+                  <div class="app-sec">Моя программа</div>
+                  <div class="app-row"><div class="av"></div><div class="rl"><div class="l1"></div><div class="l2"></div></div><span class="pill">Сегодня</span></div>
+                </div>
+                <div class="app-nav"><i class="on"></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <h2>2. Какие данные мы собираем</h2>
-  <p>Данные профиля: имя, телефон, email, роль (тренер/клиент), фото профиля. Данные тренировок: программы, расписание, результаты, заметки, данные ММТ и анкеты здоровья. Платёжные данные: обрабатываются магазином приложений (Google Play / Apple) — мы не храним данные банковских карт. Технические данные: модель устройства и версия ОС для стабильной работы.</p>
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Возможности</span>
+        <h2>Целая фитнес-экосистема</h2>
+        <p>Тренировки, специалисты, питание, прогресс и магазины — в одном приложении.</p>
+      </div>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>CRM для тренеров</h3>
+          <p>Ведите клиентов: заявки, карточки, расписание, чат и доход в одной системе.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <h3>Поиск специалистов</h3>
+          <p>Тренеры, онлайн-тренеры, врачи, реабилитологи, массажисты и нутрициологи.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18 22 4-4"/><path d="m2 6 4-4"/><path d="m3 10 7-7"/><path d="m14 21 7-7"/></svg></div>
+          <h3>Программы тренировок</h3>
+          <p>Конструктор программ и готовые планы для дома и зала + большая база упражнений.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></div>
+          <h3>Дневник и прогресс</h3>
+          <p>Дневник и таймер тренировок, фото прогресса, отслеживание и PDF-отчёты.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+          <h3>Анкета, ММТ и КБЖУ</h3>
+          <p>Анкетирование, ММТ и рекомендации, расчёт КБЖУ и ИМТ для точных программ.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+          <h3>Магазины, курсы и акции</h3>
+          <p>Спортпит и товары, онлайн-курсы, марафоны, статьи и акции партнёров.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <h2>3. Как мы используем данные</h2>
-  <p>Для предоставления функций Приложения, связи тренера и клиента, ведения расписания и программ, обработки подписок и улучшения качества сервиса.</p>
+  <!-- How it works -->
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Как это работает</span>
+        <h2>Старт за три шага</h2>
+        <p>От установки до первой тренировки — несколько минут.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><div class="num">1</div><h3>Установите приложение</h3><p>Скачайте BestFit 360 и создайте аккаунт клиента или тренера.</p></div>
+        <div class="step reveal"><div class="num">2</div><h3>Найдите тренера</h3><p>Через каталог или по коду от вашего тренера — подключение в пару касаний.</p></div>
+        <div class="step reveal"><div class="num">3</div><h3>Тренируйтесь по плану</h3><p>Получайте программы, ведите расписание, питание и следите за прогрессом.</p></div>
+      </div>
+    </div>
+  </section>
 
-  <h2>4. Передача третьим лицам</h2>
-  <p>Мы не продаём ваши данные. Данные обрабатываются нашими поставщиками инфраструктуры (хостинг и база данных) и магазином приложений (Google Play / Apple — оплата подписок) исключительно для работы Приложения. Передача возможна только по требованию закона.</p>
+  <!-- For clients -->
+  <section class="section">
+    <div class="container split">
+      <div class="split-copy reveal">
+        <span class="eyebrow">Для клиентов</span>
+        <h2>Занимайся по плану и&nbsp;достигай результатов</h2>
+        <ul class="feat-list">
+          <li>Персональная программа от твоего тренера</li>
+          <li>Расписание тренировок и таймер отдыха</li>
+          <li>Дневник калорий и контроль питания</li>
+          <li>Прогресс-фото, замеры и история тренировок</li>
+        </ul>
+        <p style="margin-top:28px;"><a class="btn btn-primary" href="clients.html">Подробнее для клиентов</a></p>
+      </div>
+      <div class="split-media reveal">
+        <div class="device-wrap">
+          <div class="phone"><div class="phone-screen">
+            <div class="app">
+              <div class="app-status"><span>9:41</span><span class="sig"><i></i><i></i><i></i></span></div>
+              <div class="app-body">
+                <div class="app-greet">Моя программа</div>
+                <div class="app-hero"><h4>Тренировка дня</h4><p>Грудь + трицепс · 6 упражнений</p><div class="mini-btns"><span class="b1">Начать</span><span class="b2">Расписание</span></div></div>
+                <div class="app-sec">Сегодня</div>
+                <div class="app-row"><div class="av"></div><div class="rl"><div class="l1"></div><div class="l2"></div></div><span class="pill">12:00</span></div>
+                <div class="app-row"><div class="av"></div><div class="rl"><div class="l1"></div><div class="l2"></div></div><span class="pill">Питание</span></div>
+              </div>
+              <div class="app-nav"><i class="on"></i><i></i><i></i><i></i></div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <h2>5. Хранение и защита</h2>
-  <p>Данные хранятся на защищённых серверах с разграничением доступа. Мы применяем технические и организационные меры для защиты от несанкционированного доступа.</p>
+  <!-- For trainers -->
+  <section class="section alt">
+    <div class="container split reverse">
+      <div class="split-media reveal">
+        <div class="device-wrap">
+          <div class="phone"><div class="phone-screen">
+            <div class="app">
+              <div class="app-status"><span>9:41</span><span class="sig"><i></i><i></i><i></i></span></div>
+              <div class="app-body">
+                <div class="app-greet">Мои клиенты</div>
+                <div class="app-row"><div class="av"></div><div class="rl"><div class="l1"></div><div class="l2"></div></div><span class="pill">8 сессий</span></div>
+                <div class="app-row"><div class="av"></div><div class="rl"><div class="l1"></div><div class="l2"></div></div><span class="pill">Новый</span></div>
+                <div class="app-row"><div class="av"></div><div class="rl"><div class="l1"></div><div class="l2"></div></div><span class="pill">План</span></div>
+                <div class="app-hero" style="margin-top:12px;"><h4>Доход за июнь</h4><p>Создавайте программы и ведите расписание</p><div class="mini-btns"><span class="b1">Создать план</span></div></div>
+              </div>
+              <div class="app-nav"><i class="on"></i><i></i><i></i><i></i></div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <div class="split-copy reveal">
+        <span class="eyebrow">Для тренеров</span>
+        <h2>Веди клиентов и&nbsp;программы в&nbsp;одном приложении</h2>
+        <ul class="feat-list">
+          <li>База клиентов и статусы заявок</li>
+          <li>Конструктор программ и шаблоны тренировочных дней</li>
+          <li>Карточка клиента: анкета здоровья, ММТ, замеры</li>
+          <li>Учёт дохода, баланс сессий и QR-код для подключения</li>
+        </ul>
+        <p style="margin-top:28px;"><a class="btn btn-primary" href="trainers.html">Подробнее для тренеров</a></p>
+      </div>
+    </div>
+  </section>
 
-  <h2>6. Ваши права</h2>
-  <p>Вы можете просматривать и изменять данные профиля, временно деактивировать аккаунт или удалить его полностью вместе со всеми данными в разделе «Настройки → Удалить аккаунт».</p>
+  <!-- CTA -->
+  <section class="section" id="download">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2>Начни тренироваться с&nbsp;BestFit 360</h2>
+        <p>Скачай приложение и&nbsp;найди своего тренера уже сегодня.</p>
+        <div class="stores">
+          <a class="store-badge" href="#" aria-label="Скачать в App Store">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.365 1.43c0 1.14-.42 2.2-1.12 2.98-.84.94-2.2 1.66-3.34 1.57-.14-1.12.42-2.3 1.1-3.02.78-.84 2.16-1.48 3.36-1.53zM20.5 17.5c-.55 1.27-.82 1.84-1.53 2.97-1 1.57-2.4 3.53-4.14 3.54-1.55.02-1.95-1.01-4.05-1-2.1.01-2.54 1.02-4.1 1-1.74-.01-3.07-1.78-4.07-3.35C-.02 18.13-.27 13.4 1.5 10.9c1.06-1.5 2.74-2.38 4.32-2.38 1.6 0 2.61 1.02 3.94 1.02 1.29 0 2.07-1.02 3.92-1.02 1.4 0 2.88.76 3.94 2.08-3.46 1.9-2.9 6.84.38 8.9z"/></svg>
+            <span><small>Скачать в</small><b>App Store</b></span>
+          </a>
+          <a class="store-badge" href="#" aria-label="Доступно в Google Play">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 2.5c0-.38.42-.62.74-.42L20.5 11.6c.3.18.3.62 0 .8L3.74 21.92c-.32.2-.74-.04-.74-.42z"/></svg>
+            <span><small>Доступно в</small><b>Google Play</b></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <h2>7. Дети</h2>
-  <p>Приложение не предназначено для лиц младше 16 лет. Мы сознательно не собираем данные детей.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><span class="logo"><img src="assets/logo-mark.svg" alt="BestFit 360" width="38" height="38"></span> BestFit 360</div>
+          <p style="margin:0;max-width:320px;font-size:14px;">Платформа для тренеров и клиентов: планы тренировок, расписание, ММТ и прогресс.</p>
+        </div>
+        <div>
+          <h4>Разделы</h4>
+          <ul>
+            <li><a href="features.html">Возможности</a></li>
+            <li><a href="trainers.html">Для тренеров</a></li>
+            <li><a href="clients.html">Для клиентов</a></li>
+            <li><a href="support.html">Поддержка</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Документы</h4>
+          <ul>
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+            <li><a href="terms.html">Условия использования</a></li>
+            <li><a href="offer.html">Договор оферты</a></li>
+            <li><a href="mailto:bestfit360@gmail.com">bestfit360@gmail.com</a></li>
+            <li><a href="tel:+77022449944">+7 702 244 99 44</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BestFit 360 · ИП «Аханов». Все права защищены.</div>
+    </div>
+  </footer>
 
-  <h2>8. Изменения политики</h2>
-  <p>Мы можем обновлять эту Политику. Существенные изменения будут отражены в Приложении с обновлением даты в шапке документа.</p>
-
-  <h2>9. Контакты</h2>
-  <p>По вопросам обработки данных пишите на <a href="mailto:support@bestfit360.app">support@bestfit360.app</a>.</p>
-
-  <footer>© 2026 BestFit 360. Все права защищены.</footer>
+  <script>
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+      }, { threshold: 0.12 });
+      els.forEach(function (e) { io.observe(e); });
+    })();
+  </script>
 </body>
 </html>
