@@ -71,6 +71,7 @@ h1, h2, h3 { letter-spacing: -0.02em; line-height: 1.08; }
 .nav-links a { color: var(--text); font-size: 15px; font-weight: 600; position: relative; }
 .nav-links a:hover { color: var(--accent); }
 .nav-cta { padding: 9px 18px !important; }
+.nav-links a.nav-cta, .nav-links a.nav-cta:hover { color: #fff; }
 .nav-toggle { display: none; background: none; border: 0; padding: 6px; cursor: pointer; color: var(--ink); }
 
 /* ---------- Buttons ---------- */
