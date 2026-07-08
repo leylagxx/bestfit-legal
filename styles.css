@@ -131,6 +131,20 @@ h1, h2, h3 { letter-spacing: -0.02em; line-height: 1.08; }
 }
 .phone-screen { width: 100%; height: 100%; border-radius: 36px; overflow: hidden; background: var(--bg); position: relative; }
 
+/* Real app screenshot filling the phone frame */
+.app-shot { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+/* Hide the fake hardware notch over real screenshots (they have their own status bar) */
+.phone:has(.app-shot)::before { display: none; }
+
+/* Временный плейсхолдер вместо скриншота — заменить обратно на .app-shot, когда будут финальные фото */
+.app-shot-ph {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+  background: linear-gradient(165deg, var(--accent-light) 0%, var(--bg) 70%);
+  color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.app-shot-ph img { width: 64px; height: 64px; opacity: 0.45; }
+
 /* floating glass card overlapping the phone */
 .float-card {
   position: absolute; z-index: 3; background: rgba(255,255,255,0.85);
