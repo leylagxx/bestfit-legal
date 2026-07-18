@@ -20,7 +20,7 @@
   --shadow-sm: 0 2px 8px rgba(14, 27, 31, 0.05);
   --shadow: 0 18px 40px -16px rgba(14, 27, 31, 0.18);
   --shadow-lg: 0 40px 80px -24px rgba(16, 56, 64, 0.32);
-  --grad: linear-gradient(135deg, #184A55 0%, #2C7A8C 55%, #3FA7BE 100%);
+  --grad: #184A55;
   color-scheme: light;
 }
 
