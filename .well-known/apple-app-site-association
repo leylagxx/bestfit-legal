@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["DP995VB4BP.com.bestfit360.app"],
+        "components": [
+          {
+            "/": "/invite/*",
+            "comment": "Приглашение тренера — открывать в приложении"
+          }
+        ]
+      }
+    ]
+  }
+}

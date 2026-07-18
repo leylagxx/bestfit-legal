@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bestfit360.app",
+      "sha256_cert_fingerprints": [
+        "7B:42:8B:70:9D:B1:4F:BF:76:FE:6F:21:D8:CB:2A:22:C3:83:2A:96:B6:ED:64:94:01:A8:18:CF:FC:03:EA:CA",
+        "97:72:90:3D:79:25:5A:39:30:BC:05:81:5E:49:A3:10:8C:82:1C:A8:44:FB:3F:CA:2F:27:1F:47:B7:FA:A4:C5"
+      ]
+    }
+  }
+]
