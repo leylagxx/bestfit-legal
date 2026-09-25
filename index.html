@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BestFit 360 — платформа для тренеров и клиентов</title>
-  <meta name="description" content="BestFit 360 — современная фитнес-платформа для здоровья и спорта: тренеры, специалисты, программы тренировок, питание, прогресс и магазины в одном приложении.">
+  <meta name="theme-color" content="#FFFFFF">
+  <title>BestFit 360 — все сервисы фитнеса на одном экране</title>
+  <meta name="description" content="BestFit 360 — фитнес-экосистема: тренеры и специалисты, программы и трекинг тренировок, ММТ, КБЖУ, база упражнений, справочник и магазины в одном приложении.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -29,13 +30,12 @@
     </div>
   </header>
 
-  <!-- Hero -->
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-copy reveal">
         <span class="eyebrow"><span class="dot"></span> Фитнес-экосистема · iOS и Android</span>
-        <h1>Твой путь к&nbsp;<span class="grad">лучшей форме</span></h1>
-        <p class="lead">Современная фитнес-платформа, объединяющая персональных тренеров, клиентов, врачей, реабилитологов, массажистов, нутрициологов, фитнес-клубы и магазины спортивных товаров — в одном приложении.</p>
+        <h1>Все сервисы <span class="hl">фитнеса</span> в&nbsp;одном приложении</h1>
+        <p class="lead">Персональные тренеры, врачи, массажисты и нутрициологи, программы тренировок, питание, прогресс, фитнес-клубы и магазины — BestFit 360 объединяет всё, что нужно для результата.</p>
         <div class="hero-cta">
           <a class="btn btn-primary" href="#download">Скачать приложение</a>
           <a class="btn btn-ghost" href="features.html">Все возможности</a>
@@ -46,148 +46,163 @@
         </div>
       </div>
       <div class="hero-media reveal">
-        <div class="device-wrap">
-          <div class="float-card float-tl">
-            <span class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span>
-            <span><small>Прогресс за месяц</small><b>+4.2 кг мышц</b></span>
-          </div>
-          <div class="float-card float-br">
-            <span class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>
-            <span><small>Тренировка</small><b>Выполнена</b></span>
-          </div>
-          <div class="phone">
-            <div class="phone-screen">
-              <img class="app-shot" src="assets/screens/client-home.png" alt="Главный экран клиента BestFit 360: ближайшая тренировка, абонемент и дневник питания" width="660" height="1434">
-            </div>
-          </div>
-        </div>
+        <div class="promo-wrap"><img class="promo" src="assets/promo/catalog.webp" alt="Все сервисы фитнеса на одном экране: каталог — тренеры, специалисты, упражнения, курсы, маркетплейс, клубы, блог и справочник" width="720" height="1644" fetchpriority="high"></div>
       </div>
     </div>
   </section>
 
-  <!-- Features -->
+  <section class="section alt">
+    <div class="section-head reveal container">
+      <span class="eyebrow">Загляни в приложение</span>
+      <h2>12 экранов — <span class="hl">один</span> BestFit&nbsp;360</h2>
+      <p>Листай, чтобы увидеть, как всё устроено внутри.</p>
+    </div>
+    <div class="gallery reveal">
+      <div class="gallery-track" id="gallery" tabindex="0" aria-label="Экраны приложения BestFit 360">
+        <img src="assets/promo/catalog.webp" alt="Все сервисы фитнеса на одном экране: каталог — тренеры, специалисты, упражнения, курсы, маркетплейс, клубы, блог и справочник" width="720" height="1644" loading="lazy" decoding="async">
+        <img src="assets/promo/home.webp" alt="Всё важное на одном экране: главный экран с ближайшей тренировкой, быстрыми действиями и нормой питания" width="720" height="1642" loading="lazy" decoding="async">
+        <img src="assets/promo/progress.webp" alt="Структура, дисциплина, прогресс: мои тренировки, ИМТ, активная программа и прогресс по упражнениям" width="720" height="1669" loading="lazy" decoding="async">
+        <img src="assets/promo/tracking.webp" alt="Удобный трекинг каждого подхода: экран тренировки с весом, повторами и отметкой подходов" width="720" height="1646" loading="lazy" decoding="async">
+        <img src="assets/promo/technique.webp" alt="Делай правильно с первого раза: карточка упражнения с анимацией и пошаговой техникой выполнения" width="720" height="1702" loading="lazy" decoding="async">
+        <img src="assets/promo/exercises.webp" alt="Сотни упражнений под любую цель: база упражнений с поиском, фильтрами и уровнем сложности" width="720" height="1644" loading="lazy" decoding="async">
+        <img src="assets/promo/macros.webp" alt="Точный баланс БЖУ без лишних расчётов: калькулятор КБЖУ по весу, росту, возрасту, активности и цели" width="720" height="1644" loading="lazy" decoding="async">
+        <img src="assets/promo/mmt.webp" alt="Сначала оцени, потом тренируй: мануальное мышечное тестирование клиента и генерация плана" width="720" height="1665" loading="lazy" decoding="async">
+        <img src="assets/promo/trainer-profile.webp" alt="Твой профиль, твои клиенты: профиль тренера с рейтингом, стажем, клиентами и специализациями" width="720" height="1714" loading="lazy" decoding="async">
+        <img src="assets/promo/knowledge.webp" alt="Знания, которые работают: справочник и энциклопедия — работа с болями, периодизация, анатомия, дисбалансы" width="720" height="1646" loading="lazy" decoding="async">
+        <img src="assets/promo/marketplace.webp" alt="Твои спортивные магазины в одном месте: маркетплейс — спортпит, одежда, ПП-еда, БАДы и инвентарь" width="720" height="1569" loading="lazy" decoding="async">
+        <img src="assets/promo/start.webp" alt="Твой фитнес начинается здесь: экран входа в BestFit 360 по номеру телефона, Apple или Google" width="720" height="1646" loading="lazy" decoding="async">
+      </div>
+      <div class="gallery-nav">
+        <button type="button" data-gallery="prev" aria-label="Назад"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="15 18 9 12 15 6"/></svg></button>
+        <button type="button" data-gallery="next" aria-label="Вперёд"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="9 18 15 12 9 6"/></svg></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="split-copy reveal">
+        <span class="eyebrow">Экосистема</span>
+        <h2>Твои спортивные <span class="hl">магазины</span> в&nbsp;одном месте</h2>
+        <p class="lead">Не нужно искать по разным сайтам — всё для тренировок и питания уже в приложении.</p>
+        <ul class="feat-list">
+          <li>Спортивное питание, БАДы и витамины</li>
+          <li>Одежда, экипировка и инвентарь</li>
+          <li>Готовые ПП-рационы</li>
+          <li>Фитнес-клубы, онлайн-курсы и марафоны рядом</li>
+        </ul>
+      </div>
+      <div class="split-media reveal">
+        <div class="promo-wrap"><img class="promo" src="assets/promo/marketplace.webp" alt="Твои спортивные магазины в одном месте: маркетплейс — спортпит, одежда, ПП-еда, БАДы и инвентарь" width="720" height="1569" loading="lazy" decoding="async"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container split reverse">
+      <div class="split-copy reveal">
+        <span class="eyebrow">База упражнений</span>
+        <h2><span class="hl">Сотни</span> упражнений под любую цель</h2>
+        <p class="lead">Поиск, фильтры по мышцам и уровню сложности, закладки и анимация техники.</p>
+        <ul class="feat-list">
+          <li>Упражнения для дома и зала</li>
+          <li>Фильтры по группам мышц и оборудованию</li>
+          <li>Уровни: лёгкий, средний, сложный</li>
+          <li>Свои подборки в «Моих» и закладках</li>
+        </ul>
+      </div>
+      <div class="split-media reveal">
+        <div class="promo-wrap"><img class="promo" src="assets/promo/exercises.webp" alt="Сотни упражнений под любую цель: база упражнений с поиском, фильтрами и уровнем сложности" width="720" height="1644" loading="lazy" decoding="async"></div>
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">Возможности</span>
-        <h2>Целая фитнес-экосистема</h2>
+        <h2>Целая фитнес-<span class="hl">экосистема</span></h2>
         <p>Тренировки, специалисты, питание, прогресс и магазины — в одном приложении.</p>
       </div>
       <div class="cards">
-        <div class="card reveal">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-          <h3>CRM для тренеров</h3>
-          <p>Ведите клиентов: заявки, карточки, расписание, чат и доход в одной системе.</p>
-        </div>
-        <div class="card reveal">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
-          <h3>Поиск специалистов</h3>
-          <p>Тренеры, онлайн-тренеры, врачи, реабилитологи, массажисты и нутрициологи.</p>
-        </div>
-        <div class="card reveal">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18 22 4-4"/><path d="m2 6 4-4"/><path d="m3 10 7-7"/><path d="m14 21 7-7"/></svg></div>
-          <h3>Программы тренировок</h3>
-          <p>Конструктор программ и готовые планы для дома и зала + большая база упражнений.</p>
-        </div>
-        <div class="card reveal">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></div>
-          <h3>Дневник и прогресс</h3>
-          <p>Дневник и таймер тренировок, фото прогресса, отслеживание и PDF-отчёты.</p>
-        </div>
-        <div class="card reveal">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
-          <h3>Анкета, ММТ и КБЖУ</h3>
-          <p>Анкетирование, ММТ и рекомендации, расчёт КБЖУ и ИМТ для точных программ.</p>
-        </div>
-        <div class="card reveal">
-          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
-          <h3>Магазины, курсы и акции</h3>
-          <p>Спортпит и товары, онлайн-курсы, марафоны, статьи и акции партнёров.</p>
-        </div>
+        <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>CRM для тренеров</h3><p>Клиенты, расписание, программы, чат и доход в одной системе.</p></div>
+        <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><h3>Поиск специалистов</h3><p>Тренеры, онлайн-тренеры, врачи, реабилитологи, массажисты и нутрициологи.</p></div>
+        <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18 22 4-4"/><path d="m2 6 4-4"/><path d="m3 10 7-7"/><path d="m14 21 7-7"/></svg></div><h3>Трекинг тренировок</h3><p>Каждый подход, вес и повтор — с анимацией техники и таймером.</p></div>
+        <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></div><h3>ММТ и КБЖУ</h3><p>Мышечное тестирование, расчёт КБЖУ и ИМТ для точных программ.</p></div>
+        <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg></div><h3>Справочник</h3><p>Работа с болями, периодизация, анатомия и дисбалансы.</p></div>
+        <div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div><h3>Маркетплейс</h3><p>Спортпит, одежда, ПП-еда, БАДы и инвентарь.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- How it works -->
   <section class="section alt">
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">Как это работает</span>
-        <h2>Старт за три шага</h2>
+        <h2>Старт за <span class="hl">три</span> шага</h2>
         <p>От установки до первой тренировки — несколько минут.</p>
       </div>
       <div class="steps">
-        <div class="step reveal"><div class="num">1</div><h3>Установите приложение</h3><p>Скачайте BestFit 360 и создайте аккаунт клиента или тренера.</p></div>
+        <div class="step reveal"><div class="num">1</div><h3>Установите приложение</h3><p>Скачайте BestFit 360 и войдите по номеру телефона, через Apple или Google.</p></div>
         <div class="step reveal"><div class="num">2</div><h3>Найдите тренера</h3><p>Через каталог или по коду от вашего тренера — подключение в пару касаний.</p></div>
-        <div class="step reveal"><div class="num">3</div><h3>Тренируйтесь по плану</h3><p>Получайте программы, ведите расписание, питание и следите за прогрессом.</p></div>
+        <div class="step reveal"><div class="num">3</div><h3>Тренируйтесь по плану</h3><p>Отмечайте подходы, следите за питанием и смотрите, как растёт прогресс.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- For clients -->
   <section class="section">
-    <div class="container split">
-      <div class="split-copy reveal">
-        <span class="eyebrow">Для клиентов</span>
-        <h2>Занимайся по плану и&nbsp;достигай результатов</h2>
-        <ul class="feat-list">
-          <li>Персональная программа от твоего тренера</li>
-          <li>Расписание тренировок и таймер отдыха</li>
-          <li>Дневник калорий и контроль питания</li>
-          <li>Прогресс-фото, замеры и история тренировок</li>
-        </ul>
-        <p style="margin-top:28px;"><a class="btn btn-primary" href="clients.html">Подробнее для клиентов</a></p>
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Для кого</span>
+        <h2>Для клиентов и&nbsp;<span class="hl">тренеров</span></h2>
+        <p>У каждой роли — свой набор инструментов.</p>
       </div>
-      <div class="split-media reveal">
-        <div class="device-wrap">
-          <div class="phone"><div class="phone-screen">
-            <img class="app-shot" src="assets/screens/client-workout.png" alt="Экран тренировки: упражнение с анимацией, подходы, вес и повторы" width="660" height="1434" loading="lazy">
-          </div></div>
+      <div class="cards two">
+        <div class="card role-card reveal">
+          <span class="eyebrow">Для клиентов</span>
+          <h3>Структура. Дисциплина. <span class="hl">Прогресс</span></h3>
+          <ul class="feat-list">
+            <li>Персональная программа от тренера</li>
+            <li>Трекинг каждого подхода и техника упражнений</li>
+            <li>Расчёт КБЖУ и норма питания на день</li>
+            <li>ИМТ, история тренировок и прогресс по весам</li>
+          </ul>
+          <a class="btn btn-primary" href="clients.html">Подробнее для клиентов</a>
+        </div>
+        <div class="card role-card reveal">
+          <span class="eyebrow">Для тренеров</span>
+          <h3>Твой профиль, твои <span class="hl">клиенты</span></h3>
+          <ul class="feat-list">
+            <li>Профиль с рейтингом, стажем и специализациями</li>
+            <li>ММТ клиента и генерация плана в один тап</li>
+            <li>Расписание, клиенты и статьи на главном экране</li>
+            <li>Справочник и энциклопедия для работы</li>
+          </ul>
+          <a class="btn btn-primary" href="trainers.html">Подробнее для тренеров</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- For trainers -->
-  <section class="section alt">
-    <div class="container split reverse">
-      <div class="split-media reveal">
-        <div class="device-wrap">
-          <div class="phone"><div class="phone-screen">
-            <img class="app-shot" src="assets/screens/trainer-clients.png" alt="Список клиентов тренера со статусами и расписанием" width="660" height="1434" loading="lazy">
-          </div></div>
-        </div>
-      </div>
-      <div class="split-copy reveal">
-        <span class="eyebrow">Для тренеров</span>
-        <h2>Веди клиентов и&nbsp;программы в&nbsp;одном приложении</h2>
-        <ul class="feat-list">
-          <li>База клиентов и статусы заявок</li>
-          <li>Конструктор программ и шаблоны тренировочных дней</li>
-          <li>Карточка клиента: анкета здоровья, ММТ, замеры</li>
-          <li>Учёт дохода, баланс сессий и QR-код для подключения</li>
-        </ul>
-        <p style="margin-top:28px;"><a class="btn btn-primary" href="trainers.html">Подробнее для тренеров</a></p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
   <section class="section" id="download">
     <div class="container">
-      <div class="cta-band reveal">
-        <h2>Начни тренироваться с&nbsp;BestFit 360</h2>
-        <p>Скачай приложение и&nbsp;найди своего тренера уже сегодня.</p>
-        <div class="stores">
-          <a class="store-badge" href="#" aria-label="Скачать в App Store">
+      <div class="cta-band cta-split reveal">
+        <div>
+          <span class="eyebrow">iOS и Android</span>
+          <h2>Твой фитнес начинается <span class="hl">здесь</span></h2>
+          <p>Скачай BestFit 360 и&nbsp;найди своего тренера уже сегодня.</p>
+          <div class="stores">
+          <a class="store-badge" href="https://apps.apple.com/kz/app/bestfit-360-%D1%84%D0%B8%D1%82%D0%BD%D0%B5%D1%81-%D1%8D%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0/id6765931857" target="_blank" rel="noopener" aria-label="Скачать BestFit 360 в App Store">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.365 1.43c0 1.14-.42 2.2-1.12 2.98-.84.94-2.2 1.66-3.34 1.57-.14-1.12.42-2.3 1.1-3.02.78-.84 2.16-1.48 3.36-1.53zM20.5 17.5c-.55 1.27-.82 1.84-1.53 2.97-1 1.57-2.4 3.53-4.14 3.54-1.55.02-1.95-1.01-4.05-1-2.1.01-2.54 1.02-4.1 1-1.74-.01-3.07-1.78-4.07-3.35C-.02 18.13-.27 13.4 1.5 10.9c1.06-1.5 2.74-2.38 4.32-2.38 1.6 0 2.61 1.02 3.94 1.02 1.29 0 2.07-1.02 3.92-1.02 1.4 0 2.88.76 3.94 2.08-3.46 1.9-2.9 6.84.38 8.9z"/></svg>
             <span><small>Скачать в</small><b>App Store</b></span>
           </a>
-          <a class="store-badge" href="#" aria-label="Доступно в Google Play">
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.bestfit360.app" target="_blank" rel="noopener" aria-label="Скачать BestFit 360 в Google Play">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 2.5c0-.38.42-.62.74-.42L20.5 11.6c.3.18.3.62 0 .8L3.74 21.92c-.32.2-.74-.04-.74-.42z"/></svg>
             <span><small>Доступно в</small><b>Google Play</b></span>
           </a>
         </div>
+        </div>
+        <div class="promo-wrap"><img class="promo" src="assets/promo/start.webp" alt="Твой фитнес начинается здесь: экран входа в BestFit 360 по номеру телефона, Apple или Google" width="720" height="1646" loading="lazy" decoding="async"></div>
       </div>
     </div>
   </section>
@@ -197,7 +212,7 @@
       <div class="footer-grid">
         <div>
           <div class="footer-brand"><span class="logo"><img src="assets/logo-mark.svg" alt="BestFit 360" width="38" height="38"></span> BestFit 360</div>
-          <p style="margin:0;max-width:320px;font-size:14px;">Платформа для тренеров и клиентов: планы тренировок, расписание, ММТ и прогресс.</p>
+          <p style="margin:0;max-width:320px;font-size:14px;">Все сервисы фитнеса на одном экране: тренеры, программы, ММТ, питание, прогресс и магазины.</p>
         </div>
         <div>
           <h4>Разделы</h4>
@@ -231,6 +246,18 @@
         entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
       }, { threshold: 0.12 });
       els.forEach(function (e) { io.observe(e); });
+    })();
+  </script>
+  <script>
+    (function () {
+      var track = document.getElementById('gallery');
+      if (!track) return;
+      function step() { var img = track.querySelector('img'); return img ? img.getBoundingClientRect().width + 20 : 270; }
+      document.querySelectorAll('[data-gallery]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          track.scrollBy({ left: step() * (b.dataset.gallery === 'next' ? 2 : -2), behavior: 'smooth' });
+        });
+      });
     })();
   </script>
 </body>
